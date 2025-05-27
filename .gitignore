@@ -175,4 +175,23 @@ cython_debug/
 
 # NEW
 *.pyc
-data/
+
+# Ignore raw downloaded data (e.g. SQLite DBs, zipped files)
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignore filtered/generated subsets (optional if not small)
+data/sample/*
+!data/sample/.gitkeep
+
+# Ignore mit-demo
+data/sample/mit-demo*
+!data/sample/mit-demo.gitkeep
+
+# Ignore zip files
+*.zip
+
+# Ignore large files accidentally dropped in root or scripts
+*.db
+*.hdf5
+*.csv

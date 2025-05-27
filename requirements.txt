@@ -1,0 +1,27 @@
+# Core packages
+pandas>=1.3
+numpy>=1.21
+scikit-learn>=1.0
+scikit-surprise>=1.1.1
+matplotlib>=3.4
+seaborn>=0.11
+nltk>=3.6
+
+# Dev & tooling
+pytest>=7.0
+black>=22.0
+pylint>=2.13
+
+# Notebook (optional if used interactively)
+jupyterlab
+ipykernel
+
+# fetching database
+requests
+certifi
+
+# to fetch MIT demo csv files directly from my Drive
+gdown
+
+# for better SQL visuals
+tabulate
